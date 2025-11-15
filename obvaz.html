@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Обратная связь</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="clearfix">
+            <a id="logo" href="index.html"><span class="yellow">Сайт</span> <i>визитка</i></a>
+        <nav id="mainnav">            
+            <ul>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="onas.html">О нас</a></li>
+                <li><a href="klienti.html">Клиенты</a></li>
+                <li><a href="kontakti.html">Контакты</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <form id="contact-form" action="">      
+                <div class="form_item">
+                    <label for="topic"><i>Тема</i></label>
+                    <br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name"><i>Имя</i></label><br>
+                    <input name="name" id="name" type="text" placeholder="Введите Имя" required>
+                </div>      
+                <div class="form_item">
+                    <label for="name"><i>E-mail</i></label><br>
+                    <input name="name" id="name" type="email" placeholder="Введите почту" required>
+                </div>
+                <div class="form_item">
+                    <label for="name"><i>Телефон</i></label><br>
+                    <input name="name" id="name" type="tel" placeholder="Введите номер телефона" required>
+                </div>      
+                <div class="form_item">
+                    <label for="text"><i>Текст сообщения</i></label><br>
+                    <input name="text" id="text" type="text" placeholder="Введите текст" required>
+                </div>
+                <br>
+                <div class="form_item">
+                <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer class="obsvas_footer">
+        <p class="footer_block"><a id="napn" href="obsvaz.html"><b>Написать нам &#9650;</b></a></p>
+        <p class="footer_block">&copy; Новая компания</p>
+        <div class="footer_icons">
+            <a target="_blank" href="https://mail.ru/?autologin=no"><img class="footer_img" src="img/mailru.png" alt="Иконка mail.ru"></a>
+            <a target="_blank" href="https://m.ok.ru/"><img class="footer_img" src="img/ok.png" alt="Иконка ok"></a>
+            <a target="_blank" href="https://vk.com/"><img class="footer_img" src="img/vk.png" alt="Иконка vk"></a>
+        </div>
+    </footer>
+</body>
+</html>
